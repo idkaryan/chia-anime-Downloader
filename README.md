@@ -34,4 +34,4 @@ $ pip install pyperclip
   
 
 
-*NOTE*  : If you don't want the trouble of downloading Python and other stuff to use this, please wait till I get up a binary for this. Still trying to figure out how to do that.
+*NOTE*  : If you don't want the trouble of downloading Python and other stuff to use this, please use the provided binary release.
