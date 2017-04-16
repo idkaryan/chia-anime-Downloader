@@ -8,15 +8,25 @@ import pyperclip
 
      
 animePageLink = '';
-
 animePageLink = input("1. Go to chia-anime.tv.\n2. Enter any anime's main page link : ")
 
 episodeLinks = []
 finalPages = []
 downloadLinks = []
+
+# this right here is for pages when we get a 404 not found error, 522 server error, etc.
+# it'll just store links to those episodes and present in the end.
 failedPages = []
+
+
+# i know globals are frowned upon but this is a small scale program and.. please forgive me.
+
+# Following is just a function to get a fancy loading bar while the links are getting fetched.
+# You know, while getting links for 500+ episodes, sometimes someone may think it just froze or stopped working? It's for that situation.
+# It works when I run in python shell but for some reason, does not works as expected if opened directly in cmd.
+# Would really appreciate if someone could point out why. It's just aesthetics though, so never mind.
+
 hashCount = 0 
-                
 def hashUpdate(percent):
         global hashCount;
         hashTotal = math.ceil(percent * 20);
@@ -27,7 +37,6 @@ def hashUpdate(percent):
 
 
 print('\n');
-
 print('Getting links for : %s' %(animePageLink));
 print('\n');
 print('Initiating chiaDownloader : [ #################### ]');   
@@ -61,9 +70,12 @@ for i in range(len(episodeLinks)):
             finalPages.append(finalPage[0].attrs['href'])
     
 
+
+# just aesthetics. Never mind.
 print(' ]\n\n- PHASE 1 COMPLETED -\n\n');
 print('Initiating PHASE 2        : [ ',end="");
 hashCount = 0;
+
 
 for i in range(len(finalPages)):
     percentageDone = i/len(finalPages);
