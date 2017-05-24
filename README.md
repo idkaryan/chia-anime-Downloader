@@ -1,4 +1,3 @@
-# NOTE : Does not work anymore since chia-anime now uses ddos protection service.
 # chia-anime-Downloader
 Ever wanted all the episode download links straight to your screen or clipboard? Well, this is it.
 
