@@ -1,16 +1,6 @@
 # chia-anime-Downloader
 Ever wanted all the episode download links straight to your screen or clipboard? Well, this is it.
-
-# External dependencies : 
-  - requests
-  - BeautifulSoup4
-  - pyperclip
-
-```
-$ pip install beautifulsoup4
-$ pip install requests
-$ pip install pyperclip
-```
+https://github.com/idkaryan/chia-anime-Downloader/releases/download/v1.0/chiaAnimeDownloader.rar
 
 
 # Steps:
@@ -31,7 +21,15 @@ $ pip install pyperclip
  5. press enter and wait while it fetches all links :)
  
  ![step 5](http://i.imgur.com/ZJphTjQ.jpg)
-  
 
 
-*NOTE*  : If you don't want the trouble of downloading Python and other stuff to use this, please use the provided binary release.
+# External dependencies(for devs) : 
+  - requests
+  - BeautifulSoup4
+  - pyperclip
+
+```
+$ pip install beautifulsoup4
+$ pip install requests
+$ pip install pyperclip
+```
