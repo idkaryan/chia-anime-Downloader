@@ -1,3 +1,6 @@
+# This doesn't work for now as chia-anime.tv started using video hosts which load the links dynamically. 
+# I'll fix this as soon as I am done with my other projects.
+
 
 # chia-anime-Downloader
 Ever wanted all the episode download links straight to your screen or clipboard? Well, this is it.
