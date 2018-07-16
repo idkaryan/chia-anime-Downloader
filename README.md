@@ -52,7 +52,9 @@ scrapy crawl epbot -a aL="http://www.chia-anime.tv/episode/91-days/"
 ```
 replacing http://www.chia-anime.tv/episode/91-days/ with whatever address you copied
 
+result:
 
+![final](https://i.imgur.com/n242Bao.jpg)
 
 
 # Steps for the older version which stopped working when chia-anime.tv started using video hosts which loaded the links dynamically using javascript. 
