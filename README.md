@@ -13,7 +13,6 @@ conda install -c conda-forge scrapy
 ```
 
 
-
 2. install docker and splash
 
 installing splash through docker is the easiest way, so install docker first
@@ -50,10 +49,13 @@ pip install scrapy-splash
 ```
 scrapy crawl epbot -a aL="http://www.chia-anime.tv/episode/91-days/"
 ```
+replacing http://www.chia-anime.tv/episode/91-days/ with whatever address you copied
 
 
 
-# Steps for the older version which stopped working when chia-anime.tv started using video hosts which loaded the links dynamically using javascript. 
+
+
+* Steps for the older version which stopped working when chia-anime.tv started using video hosts which loaded the links dynamically using javascript. 
 
  1. go to http://www.chia-anime.tv/index/
  
