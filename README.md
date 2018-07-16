@@ -26,6 +26,7 @@ command for setting it up
 $ docker run -p 5023:5023 -p 8050:8050 -p 8051:8051 scrapinghub/splash
 ```
 note that you may need to start docker and use this command everytime you're using chia-anime-downloader
+
 it sets up the localhost and allows for scraping javascript based websites
 
 
