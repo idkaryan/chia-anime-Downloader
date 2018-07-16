@@ -55,8 +55,7 @@ replacing http://www.chia-anime.tv/episode/91-days/ with whatever address you co
 
 
 
-
-* Steps for the older version which stopped working when chia-anime.tv started using video hosts which loaded the links dynamically using javascript. 
+# Steps for the older version which stopped working when chia-anime.tv started using video hosts which loaded the links dynamically using javascript. 
 
  1. go to http://www.chia-anime.tv/index/
  
