@@ -15,7 +15,9 @@ conda install -c conda-forge scrapy
 
 
 2. install docker and splash
+
 installing splash through docker is the easiest way, so install docker first
+
 after docker is installed, command for installing splash
 ```
 $ docker pull scrapinghub/splash
