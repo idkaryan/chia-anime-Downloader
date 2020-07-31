@@ -1,3 +1,6 @@
+Disclaimer : I made this tool to learn how to scrape. I do that with puppeteer and cheerio + node now.  
+This doesn't encourage the use of any specific websites for watching or downloading any kind of media.
+
 # chia-anime-Downloader
 Ever wanted all the episode download links straight to your screen or clipboard? Well, this is it.
 
